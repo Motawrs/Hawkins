@@ -1,0 +1,88 @@
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin-bottom: 5px;
+}
+
+.menu-item a, .submenu-item a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 10px 20px;
+    text-decoration: none;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item a i, .submenu-item a i {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #5f6368;
+}
+
+.menu-item a:hover {
+    background-color: #f1f3f4;
+    border-radius: 0 50px 50px 0;
+}
+
+.submenu-item.item-ativo a {
+    background-color: #e3f2fd; 
+    color: #1a73e8; 
+    border-radius: 0 50px 50px 0; 
+    margin-right: -10px;
+}
+
+.submenu-item.item-ativo a i {
+    color: #1a73e8;
+}
+
+.menu-com-subitens a {
+    font-weight: bold;
+}
+
+.menu-seta {
+    margin-left: auto !important;
+    margin-right: 5px !important;
+}
+
+.submenu-item a {
+    padding-left: 60px;
+    font-size: 14px;
+}
+
+.badge-notificacao {
+    display: inline-block;
+    background-color: #fff;
+    color: #1a73e8;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: bold;
+    line-height: 1;
+    border: 1px solid #e3f2fd;
+}
+
+.curso-info {
+    font-size: 11px;
+    font-weight: normal;
+    color: #5f6368;
+    position: absolute;
+    left: 105px;
+    top: 30px;
+}
+
+.submenu-item.item-ativo a {
+    position: relative; 
+    flex-direction: column; 
+    align-items: flex-start;
+    height: 45px;
+}
+
+.submenu-item.item-ativo a .curso-nome {
+    margin-top: -10px;
+}
